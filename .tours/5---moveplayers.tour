@@ -3,12 +3,12 @@
   "title": "5 - Move Players",
   "steps": [
     {
-      "description": "This tour follows along with the [11th unit in the Tune Squad Coaches App on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/optimize-basketball-player-rest-breaks/11-move-players).\r\n\r\nIt's now time to add functionality for the coach. This tour will guide you through enabling the coach to move players from the bench to the court and back again. \r\n\r\nClick `next` to get started."
-    },
-    {
       "file": "main.js",
       "line": 141,
       "description": "Remember, this function is called every time a coach clicks on the player buttons you created earlier. So before you do anything, you need to make sure the quarter isn't currently in progress. While in a real basketball game a coach can swap players out during a quarter, we only have enough data on our Tune Squad players to swap in between quarters. \r\n\r\nSo, if the `quarterInPlay` variable is true, simply `return` from this function so nothing else happens."
+    },
+    {
+      "description": "This tour follows along with the [11th unit in the Tune Squad Coaches App on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/optimize-basketball-player-rest-breaks/11-move-players).\r\n\r\nIt's now time to add functionality for the coach. This tour will guide you through enabling the coach to move players from the bench to the court and back again. \r\n\r\nClick `next` to get started."
     },
     {
       "file": "main.js",
